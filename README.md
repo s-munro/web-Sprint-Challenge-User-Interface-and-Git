@@ -34,13 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+_I would describe semantic HTML as HTML that gives the browser an idea of that specific content's meaning/purpose. It gives an idea of different types of content as well as their importance_
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+_block elements naturally are aligned vertically; they will not be side-by-side.  This differs from inline, since inline elements are (like they say) 'in-line.'  i.e. if you add two divs (block) they will be on top of/below each other, whereas two in-line elements like <span>span</span>  will align in-line/beside each other.  Another key difference is that inline elements only occupy the width and height necessary, meaning you can not manipulate their width/height.  This differs from block or inline-block elements, where you can change their width/height._
 
 3. What are the 4 areas of the box model?
 
+_Content, padding, border, margin_
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+_align works on the cross-axis. Naturally this would be vertical_
 
 5. Explain why git is valuable to a team of developers.
+_git is valuable because it not only allows us to work in remote groups while keeping the document up-to-date, but it also allows us to monitor past changes and versions of the document_
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
