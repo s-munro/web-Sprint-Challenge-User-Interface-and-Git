@@ -323,3 +323,69 @@ div.boxes div.box.ten {
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.about-content h2,
+p {
+    margin-left: 20px;
+}
+
+.section.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 800px;
+    margin: 30px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 47%;
+    /* border: 1px solid gray; */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    text-align: left;
+}
+
+.box h3 {
+    margin-top: 2%;
+}
+
+.box p {
+    margin: 1% 0 5% 0;
+}
+
+.box img {
+    display: inline-block;
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/************************ END GAL ******************************/
+/************Work Together******************/
+.work-together {
+    text-align: left;
+    margin: 4% 0;
+}
+
+.work-together h3,
+p {
+    margin-left: 20px;
+}
